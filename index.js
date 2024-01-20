@@ -70,6 +70,16 @@ elem1.forEach(function (elem) {
         cursor.style.opacity = 0;
     });
 });
+// gsap.from("#page4 img",{
+//     scale:0,
+//     scrollTrigger:{
+//         trigger:"#page4",
+//         scroller:"body",
+//         start:"top 0",
+//         end:"top -40%",
+
+//     }
+// })
 
 
 var page5 = document.querySelector("#page5");

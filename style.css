@@ -1,14 +1,6 @@
 @font-face {
-    font-family: gilroy;
-    src: url(./Gilroy-Bold.woff2);
-}
-@font-face {
-    font-family: gilroy;
-    src: url(./Gilroy-Medium.woff2);
-}
-@font-face {
-    font-family: gilroy;
-    src: url(./Gilroy-Semibold.woff2);
+    font-family: elastic;
+    src: url(./helveticaneue.ttf);
 }
 
 
@@ -16,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: elastic;
 }
 html,body{
     width: 100%;
@@ -31,7 +23,7 @@ html,body{
     width: 100%;
     top: 0;
     height: 100%;
-    background-color: #000;
+    background-color: #F3C77C;
     position: fixed;
     z-index: 9999;
     display: flex;
